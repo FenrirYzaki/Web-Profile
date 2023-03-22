@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Our Prestation/HC2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>HC2</title>
+</head>
+<body>
+    <div id="home"> 
+        <div class="navbar" id="navbar" class="content">
+            <nav>
+                <h2 class="logo" href="javascript:void(0)"><a class="logo" href="/Home.html">HSN Scout</a></h2>
+                <ul>
+                    <li><a class="ullink" href="/Home.html" href="javascript:void(0)" >Home</a></li>
+                    <li><a class="ullink" href="/Home.html#about" href="javascript:void(0)" >About Us</a></li>
+                    <li><a class="ullink" href="/Home.html#prestation" href="javascript:void(0)">Our Prestation</a></li>
+                    <li><a class="ullink" href="/Home.html#another" href="javascript:void(0)">Another</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div class="content">
+            <h1 class="abouthc2">About HC2</h1>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="containerf">
+            <div class="row">
+                <div class="footer-col">
+                    <h4><a href="#home">Home</a></h4>
+                </div>
+                <div class="footer-col">
+                    <h4><a href="#about">About Us</a></h4>
+                </div>
+                <div class="footer-col">
+                    <h4><a href="#prestation">Our Prestation</a></h4>
+                </div>
+                <div class="footer-col">
+                    <h4><a href="#another">Another</a></h4>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/SultanHasanuddinscout"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/hasanuddinscout/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@sultanhasanuddinscout2496"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+    // Sticky Navbar
+    window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+</script>
+</body>
+</html>
